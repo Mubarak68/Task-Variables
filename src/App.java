@@ -26,5 +26,6 @@ public class App {
         String fullName = " John doe";
         System.out.println("My name is" + fullName.substring(0,6).toUpperCase() + "and my last name Length is " + fullName.substring(6, 9).length());
         System.out.println(fullName.substring(6, 9).startsWith("d"));
+        //
     }
 }
